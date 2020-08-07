@@ -1,0 +1,43 @@
+body {
+	background: #a97de3;
+}
+
+.container {
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	position: absolute;
+	background: transparent;
+}
+
+
+.button {
+	width: 100%;
+	height: 100;
+	font-size: 40px;
+	position: center;
+	border: none;
+	color: white;
+	cursor: pointer;
+	background: #30283b;
+}
+
+.button:hover {
+	height: 45px;
+	font-size: 40px;
+	border: none;
+	color: white;
+	cursor: pointer;
+	background: #008087;
+}
+
+
+.hasil {
+	width: 100%;
+	height: 50px;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	text-align: right;
+	background: #eeefff;
+}
